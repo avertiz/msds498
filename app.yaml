@@ -1,0 +1,3 @@
+runtime: python37
+instance_class : F4_1G
+entrypoint: python app.py

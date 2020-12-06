@@ -1,0 +1,24 @@
+{
+    "instances": [
+        {
+        "author_age": 119093983.0,
+        "avg_post_score": 29.883870967741935,
+        "bot_mentions": 511111.0,
+        "num_posts": 263,
+        "num_posts_borrow": 14,
+        "num_subreddits": 2,
+        "self_post_ratio": 0.25,
+        "average_loan": 500.22
+        },
+        {
+        "author_age": 1190939.0,
+        "avg_post_score": 1000.05,
+        "bot_mentions": 511.0,
+        "num_posts": 4,
+        "num_posts_borrow": 14,
+        "num_subreddits": 10,
+        "self_post_ratio": 0.25,
+        "average_loan": 500.22
+        }
+    ]
+}
