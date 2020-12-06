@@ -12,9 +12,10 @@ if __name__ == '__main__':
                                   password = RDS_config.password,
                                   dbname= RDS_config.dbname)
                                   
-    updates = etl.updateBorrowSubmissionsTable(connection = connection, new_or_old = 'new', request_times = 500)
+    # updates = etl.updateBorrowSubmissionsTable(connection = connection, new_or_old = 'new', request_times = 10)
+    print(etl.updateAuthorSubmissionsTable(connection = connection, refresh_or_add = 'add'))
     # updates = etl.updateLoansBotTable(new_or_old = 'new', request_times = 500, connection = connection)
-    print(updates)
+    # print(updates)
     # link = pd.read_sql("""SELECT permalink 
     #                      from loans_bot
     #                      WHERE created_utc = (SELECT min(created_utc)

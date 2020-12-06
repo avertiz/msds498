@@ -314,8 +314,9 @@ def updateAuthorSubmissionsTable(connection, refresh_or_add):
                                       FROM borrow_submissions
                                       WHERE 1 = 1
                                       AND LEFT(title, 5) = '[REQ]'
-                                      AND author != '[deleted]'
+                                      AND author NOT IN ('[deleted]', 'Thatguy10124', 'Teenagedirtbagxxx')
                                       AND author NOT IN (SELECT DISTINCT author from author_submissions)
+                                      ORDER BY author desc
                                   """, connection)
         
         for auth in new_authors['author']:
