@@ -32,4 +32,5 @@ The project was built on bothe AWS and Google Cloud Platform.
 #### Here are the cloud services that were used to create this app:
   * AWS RDS PostgreSQL
   * AWS Lambda
+  * Google AutoML
   * Google App Engine 
